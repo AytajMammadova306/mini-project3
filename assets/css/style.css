@@ -1,0 +1,37 @@
+*{
+    background-color: black;
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+a{
+    color:white;
+    text-decoration:none;
+}
+.row{
+    height: 50%;
+}
+.col-3{
+    height:100%;
+}
+.col-6{
+    height:100%
+}
+.logo a img{
+    height:48%;
+    border:1px solid white;
+}
+.icons svg{
+    height:35%;
+}
+.topbar{
+    height: 250px;
+    padding:1.5rem 5rem;
+}
+.icons{
+    padding-top: 10px;
+    padding-left:60px;
+}
+.icons a{
+    padding:15px;
+}
