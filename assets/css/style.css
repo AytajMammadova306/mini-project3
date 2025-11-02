@@ -1,15 +1,25 @@
-*{
-    color:white;
+* {
+    color: white;
     background-color: black;
 }
 
-.my-hover:hover{
+.my-hover:hover {
 
-    color: #FFCB04!important;
+    color: #FFCB04 !important;
 }
-.cus-color{
-    color:#FFCB04!important;
+
+.cus-color {
+    color: #ffcb04 !important;
 }
-.border-hover:hover{
-    border-color: #FFCB04!important;
+
+.border-hover:hover {
+    border-color: #FFCB04 !important;
 }
+
+input:focus {
+    outline: none !important;
+    box-shadow: none !important;
+    border-color: #ffcb04 !important;
+}
+
+
