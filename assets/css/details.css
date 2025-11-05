@@ -67,4 +67,10 @@ nav {
 .register {
     min-width: 250px;
 }
+footer{
+    background-color: black;
+    position: relative;
+    z-index: 1;
+    color: white;
+}
 
