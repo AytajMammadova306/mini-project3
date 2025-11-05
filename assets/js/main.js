@@ -8,11 +8,11 @@ fetch("https://api.tvmaze.com/shows")
     movies.forEach(movie=>{
         row.innerHTML+=`<div
                 class="max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700">
-                <a href="#">
+                <a href="details.html?id=${movie.id}">
                     <img class="rounded-t-lg w-full h-64 object-cover" src="${movie.image.medium}" alt="${movie.name}" />
                 </a>
                 <div class="p-5 mb-2">
-                    <a href="#">
+                    <a href="details.html?id=${movie.id}">
                         <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                             ${movie.name}
                         </h5>
